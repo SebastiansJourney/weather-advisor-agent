@@ -108,8 +108,8 @@ When answering, always:
 Be specific - don't say 'it might rain', say 'bring an umbrella, 8mm of rain expected'.
 Use weathercode to describe conditions (0=clear, 1-3=partly cloudy, 61-67=rain, 71-77=snow, 95=thunderstorm).
 
-User question: Do I need an umbrella in Berlin tomorrow?"""
+User question: Can I go sailing from port of Glueckstadt to Sylt this weekend?"""
     
-    print(f"\nQuery: Do I need an umbrella in Berlin tomorrow?\n")
+    print(f"\nQuery: Can I go sailing from port of Glueckstadt to Sylt this weekend?\n")
     response = agent.run(user_query)
     print("\nAgent response:", response)
