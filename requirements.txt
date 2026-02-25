@@ -1,0 +1,4 @@
+smolagents
+anthropic
+requests
+python-dotenv
